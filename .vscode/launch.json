@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.tallerms.config_server.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AlanisforeroDipardoValuisaApplication<alanisforero-dipardo-valuisa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.tallerms.alanisforero_dipardo_valuisa.AlanisforeroDipardoValuisaApplication",
+            "projectName": "alanisforero-dipardo-valuisa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

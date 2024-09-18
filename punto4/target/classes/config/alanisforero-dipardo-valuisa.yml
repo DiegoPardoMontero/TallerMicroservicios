@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: alanisforero-dipardo-valuisa
+
+server:
+  port: 8081
+
+# App metadata
+info:
+  app:
+    name: User Microservice
+    description: A simple user microservice
+    version: 1.0.0

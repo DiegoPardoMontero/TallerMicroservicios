@@ -1,3 +1,7 @@
 spring:
   application:
     name: alanisforero-dipardo-valuisa
+
+  config:
+    # Config server url
+    import: configserver:http://localhost:8888
